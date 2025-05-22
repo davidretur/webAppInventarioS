@@ -1,0 +1,7 @@
+C:\Users\Administrador\Videos\dwr\laboral\Nueva carpeta\Net8c#Entity\WebAppInventarioS\WebAppInventarioS\bin\Release\net8.0\publish\WebAppInventarioS.exe
+C:\Users\Administrador\Videos\dwr\laboral\Nueva carpeta\Net8c#Entity\WebAppInventarioS\WebAppInventarioS\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\Administrador\Videos\dwr\laboral\Nueva carpeta\Net8c#Entity\WebAppInventarioS\WebAppInventarioS\bin\Release\net8.0\publish\appsettings.json
+C:\Users\Administrador\Videos\dwr\laboral\Nueva carpeta\Net8c#Entity\WebAppInventarioS\WebAppInventarioS\bin\Release\net8.0\publish\WebAppInventarioS.dll
+C:\Users\Administrador\Videos\dwr\laboral\Nueva carpeta\Net8c#Entity\WebAppInventarioS\WebAppInventarioS\bin\Release\net8.0\publish\WebAppInventarioS.deps.json
+C:\Users\Administrador\Videos\dwr\laboral\Nueva carpeta\Net8c#Entity\WebAppInventarioS\WebAppInventarioS\bin\Release\net8.0\publish\WebAppInventarioS.runtimeconfig.json
+C:\Users\Administrador\Videos\dwr\laboral\Nueva carpeta\Net8c#Entity\WebAppInventarioS\WebAppInventarioS\bin\Release\net8.0\publish\WebAppInventarioS.pdb

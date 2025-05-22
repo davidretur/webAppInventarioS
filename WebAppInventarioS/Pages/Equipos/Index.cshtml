@@ -1,0 +1,67 @@
+﻿@page
+@model WebAppInventarioS.Pages.Equipos.IndexModel
+@{
+	ViewData["Title"] = "Lista de Equipos";
+}
+
+<h1>Lista de Equipos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>NumeroSerie</th>
+            <th>Etiqueta</th>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Ip</th>
+            <th>Ram</th>
+            <th>DiscoDuro</th>
+            <th>Procesador</th>
+            <th>So</th>
+            <th>EquipoEstatus</th>
+            <th>Empresa</th>
+            <th>Renovar</th>
+            <th>FechaUltimaCaptura</th>
+            <th>FechaUltimoMantto</th>
+            <th>ElaboroResponsiva</th>
+			<th>RecibioResponsiva</th>
+            <th>Ubicacion</th>
+            <th>Departamento</th>
+            <th>Empleado</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var equipo in Model.Equipos)
+        {
+            <tr>
+                <td>@equipo.NumeroSerie</td>
+                <td>@equipo.Etiqueta</td>
+                <td>@equipo.Marca</td>
+				<td>@equipo.Modelo</td>
+				<td>@equipo.Ip</td>
+				<td>@equipo.Ram</td>
+                <td>@equipo.DiscoDuro</td>
+                <td>@equipo.Procesador</td>
+				<td>@equipo.So</td>
+				<td>@equipo.EquipoEstatus</td>
+				<td>@equipo.Empresa</td>
+				<td>@equipo.Renovar</td>
+				<td>@equipo.FechaUltimaCaptura</td>
+				<td>@equipo.FechaUltimoMantto</td>
+				<td>@equipo.ElaboroResponsiva</td>
+				<td>@equipo.Zona</td>
+				<td>@equipo.NombreDepartamento</td>
+				<td>@equipo.IdEmpleado</td>
+                <td>
+                    <a asp-page="./Details" asp-route-id="@equipo.IdEquipo">Detalles</a> |
+                    <a asp-page="./Edit" asp-route-id="@equipo.IdEquipo">Editar</a> |
+                    <a asp-page="./Delete" asp-route-id="@equipo.IdEquipo">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a asp-page="./Create">Crear Nuevo Rol</a>
+</p>
