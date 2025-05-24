@@ -11,7 +11,7 @@ namespace WebAppInventarioS.Models
         public string Nombre { get; set; }
         [Required]
         [StringLength(100)]
-        public string ApellidoP { get; set; }
+        public string? ApellidoP { get; set; }
         [Required]
         [StringLength(100)]
         public string ApellidoM { get; set; }
